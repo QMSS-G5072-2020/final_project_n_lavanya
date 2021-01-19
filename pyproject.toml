@@ -7,8 +7,13 @@ license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.8"
+pandas = "^1.2.0"
+requests = "^2.25.1"
+datetime = "^4.3"
 
 [tool.poetry.dev-dependencies]
+sphinx = "^3.4.3"
+sphinxcontrib-napoleon = "^0.7"
 
 [build-system]
 requires = ["poetry>=0.12"]
