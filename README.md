@@ -12,15 +12,17 @@ $ pip install -i https://test.pypi.org/simple/ final_project_n_lavanya
 
 ## Features
 
-- TODO
+This packages enables users to call transportation APIs by Singapore's Land Transport Authority and obtain real-time information on transport and traffic situations. Various datasets can be built with the help of the functions in this package that can be used for a variety of purposes such as visualising transport conditions and analysing transportation trends. 24 functions are available in this package.
 
 ## Dependencies
 
-- TODO
+[tool.poetry.dependencies] python = "^3.7" pandas = "^1.1.5" requests = "^2.25.1" pytest = "^6.2.1" datetime = "^4.0.1"
+
+[tool.poetry.dev-dependencies] pytest = "^6.2.1" sphinx = "^3.3.1" sphinxcontrib-napoleon = "^0.7"
 
 ## Usage
 
-- TODO
+The package consists of 24 functions that allow you to obtain datasets on different aspects such as bus arrivals, taxi availability, traffic incidents etc.
 
 ## Documentation
 
